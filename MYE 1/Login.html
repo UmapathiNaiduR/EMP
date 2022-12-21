@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Javascript Login Form Validation</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="style.css">
+<!-- Include JS File Here -->
+<script src="login.js"></script>
+<style>
+    
+  
+
+   .btn2{
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    background-color: aqua;
+    font-weight: bold;
+    margin-left: 30px;
+   }
+   
+   
+   
+</style>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>WELCOME TO PAKRICORN</h2>
+
+<form id="form_id" method="post" name="myform">
+<!-- <label>User Name :</label> -->
+<label><b>EMPLOYEE ID</b></label>  
+<!-- <input type="text"placeholder="EMPLOYEE ID">  -->
+<input type="text" placeholder="EMPLOYEE ID" name="username" id="username"/>
+
+<label><b>PASSWORD</b></label>   
+<input type="password" placeholder="PASSWORD" name="password" id="password"/>
+<!-- <input type="button" value="Login" id="submit" onclick="validate()"/> -->
+<!-- <button class="btn1">Login</button>  -->
+<b><input class="btn1" type="button"  value="Login" id="submit" onclick="validate()"/> </b><button class="btn2">Forgot password</button>
+</form>
+<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : MYEMP<br/>Password : Pakricorn@123</b></span>
+</div>
+</div>
+
+</body>
+</html>
